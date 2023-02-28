@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B28321629A78DA10078E982 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B28321529A78DA10078E982 /* PlacesViewController.swift */; };
+		0B7BD2EA29AE07AB00B0CF13 /* PlaceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BD2E929AE07AB00B0CF13 /* PlaceSelectionView.swift */; };
+		0B7BD2EC29AE1E6700B0CF13 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BD2EB29AE1E6700B0CF13 /* DetailsView.swift */; };
 		0BE22CD029A71D12000A735A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE22CCF29A71D12000A735A /* AppDelegate.swift */; };
 		0BE22CD229A71D12000A735A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE22CD129A71D12000A735A /* SceneDelegate.swift */; };
-		0BE22CD429A71D12000A735A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE22CD329A71D12000A735A /* ViewController.swift */; };
+		0BE22CD429A71D12000A735A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE22CD329A71D12000A735A /* MainViewController.swift */; };
 		0BE22CD729A71D12000A735A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE22CD529A71D12000A735A /* Main.storyboard */; };
 		0BE22CD929A71D13000A735A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE22CD829A71D13000A735A /* Assets.xcassets */; };
 		0BE22CDC29A71D13000A735A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE22CDA29A71D13000A735A /* LaunchScreen.storyboard */; };
+		0BE22CE529A74564000A735A /* UiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE22CE429A74564000A735A /* UiColor.swift */; };
+		826D85DCB993F79554EB385E /* Pods_MyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AECF78BD054E23A54245DAA /* Pods_MyPlaces.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B28321529A78DA10078E982 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		0B7BD2E929AE07AB00B0CF13 /* PlaceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSelectionView.swift; sourceTree = "<group>"; };
+		0B7BD2EB29AE1E6700B0CF13 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		0BE22CCC29A71D12000A735A /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE22CCF29A71D12000A735A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BE22CD129A71D12000A735A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BE22CD329A71D12000A735A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BE22CD329A71D12000A735A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0BE22CD629A71D12000A735A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BE22CD829A71D13000A735A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BE22CDB29A71D13000A735A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BE22CDD29A71D13000A735A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE22CE429A74564000A735A /* UiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColor.swift; sourceTree = "<group>"; };
+		5AECF78BD054E23A54245DAA /* Pods_MyPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7010AB684621A12090893D /* Pods-MyPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.release.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		EFDDC58C8E73AB2595E5505A /* Pods-MyPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.debug.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826D85DCB993F79554EB385E /* Pods_MyPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B28321429A78D620078E982 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				0B28321529A78DA10078E982 /* PlacesViewController.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		0B7BD2E829AE075E00B0CF13 /* swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BD2E929AE07AB00B0CF13 /* PlaceSelectionView.swift */,
+				0B7BD2EB29AE1E6700B0CF13 /* DetailsView.swift */,
+			);
+			path = swiftui;
+			sourceTree = "<group>";
+		};
 		0BE22CC329A71D12000A735A = {
 			isa = PBXGroup;
 			children = (
 				0BE22CCE29A71D12000A735A /* MyPlaces */,
 				0BE22CCD29A71D12000A735A /* Products */,
+				A1E082DA087980819E6D461C /* Pods */,
+				28C3CA92AEE173C0D387CA44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,43 @@
 		0BE22CCE29A71D12000A735A /* MyPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				0B7BD2E829AE075E00B0CF13 /* swiftui */,
+				0B28321429A78D620078E982 /* ui */,
+				0BE22CE329A74538000A735A /* helper */,
 				0BE22CCF29A71D12000A735A /* AppDelegate.swift */,
 				0BE22CD129A71D12000A735A /* SceneDelegate.swift */,
-				0BE22CD329A71D12000A735A /* ViewController.swift */,
+				0BE22CD329A71D12000A735A /* MainViewController.swift */,
 				0BE22CD529A71D12000A735A /* Main.storyboard */,
 				0BE22CD829A71D13000A735A /* Assets.xcassets */,
 				0BE22CDA29A71D13000A735A /* LaunchScreen.storyboard */,
 				0BE22CDD29A71D13000A735A /* Info.plist */,
 			);
 			path = MyPlaces;
+			sourceTree = "<group>";
+		};
+		0BE22CE329A74538000A735A /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				0BE22CE429A74564000A735A /* UiColor.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		28C3CA92AEE173C0D387CA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AECF78BD054E23A54245DAA /* Pods_MyPlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E082DA087980819E6D461C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDC58C8E73AB2595E5505A /* Pods-MyPlaces.debug.xcconfig */,
+				AF7010AB684621A12090893D /* Pods-MyPlaces.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BE22CE029A71D13000A735A /* Build configuration list for PBXNativeTarget "MyPlaces" */;
 			buildPhases = (
+				546B5D1A2E734EC9468FF4F0 /* [CP] Check Pods Manifest.lock */,
 				0BE22CC829A71D12000A735A /* Sources */,
 				0BE22CC929A71D12000A735A /* Frameworks */,
 				0BE22CCA29A71D12000A735A /* Resources */,
+				895B33E18032F8C27C87E9F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +195,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		546B5D1A2E734EC9468FF4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895B33E18032F8C27C87E9F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPlaces/Pods-MyPlaces-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPlaces/Pods-MyPlaces-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPlaces/Pods-MyPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BE22CC829A71D12000A735A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BE22CD429A71D12000A735A /* ViewController.swift in Sources */,
+				0BE22CD429A71D12000A735A /* MainViewController.swift in Sources */,
+				0B7BD2EC29AE1E6700B0CF13 /* DetailsView.swift in Sources */,
+				0BE22CE529A74564000A735A /* UiColor.swift in Sources */,
+				0B28321629A78DA10078E982 /* PlacesViewController.swift in Sources */,
 				0BE22CD029A71D12000A735A /* AppDelegate.swift in Sources */,
 				0BE22CD229A71D12000A735A /* SceneDelegate.swift in Sources */,
+				0B7BD2EA29AE07AB00B0CF13 /* PlaceSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		0BE22CE129A71D13000A735A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDDC58C8E73AB2595E5505A /* Pods-MyPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +404,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +420,7 @@
 		};
 		0BE22CE229A71D13000A735A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7010AB684621A12090893D /* Pods-MyPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +434,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
